@@ -24,7 +24,6 @@
     "node": ">= 0.8.0"
   },
   "scripts": {
-    //"start": "http-server"
     "start":"node Gruntfile.js"
   },
   "devDependencies": {
