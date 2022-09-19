@@ -42,6 +42,7 @@
   },
   "keywords": [],
   "dependencies": {
+    "express": "^4.18.1",
     "git": "^0.1.5",
     "grunt-cli": "^1.4.3"
   }
