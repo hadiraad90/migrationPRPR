@@ -115,5 +115,6 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-copy');
 
   grunt.registerTask('build', ['concat', 'cssmin', 'uglify', 'copy']);
+  grunt.registerTask('heroku',['compass:dist', 'autoprefixer', 'imagemin']);
   grunt.registerTask('default', ['jshint', 'nodeunit', 'filter', 'compile', 'build']);
 };
