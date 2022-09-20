@@ -25,7 +25,7 @@
   },
   "scripts": {
     "build": "grunt uglify",
-    "start": "node app.js"
+    "start": "node server.js"
   },
   "devDependencies": {
     "csv": "~0.3.2",
